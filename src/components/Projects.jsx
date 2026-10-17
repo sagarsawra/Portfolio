@@ -1,8 +1,8 @@
-import { Github, ExternalLink } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const projects = [
   {
-    name: 'LeetTow',
+    name: 'LeetTow Browser Extension',
     subtitle: 'LLM-Based Coding Assistant',
     technologies: ['Node.js', 'Groq LLM', 'GraphQL'],
     description: [
@@ -36,21 +36,19 @@ const projects = [
   },
   {
     name: 'MailExTo',
-    subtitle: 'Email Utility Tool',
+    subtitle: 'Broswer Extension For GMail',
     technologies: [],
     description: [],
     github: 'https://github.com/sagarsawra/mailexto',
   },
   {
     name: 'MediConnect',
-    subtitle: 'Healthcare Application',
     technologies: [],
     description: [],
     github: 'https://github.com/sagarsawra/mediconnect',
   },
   {
     name: 'StockAlerts',
-    subtitle: 'Stock Notification System',
     technologies: [],
     description: [],
     github: 'https://github.com/sagarsawra/stockalerts',

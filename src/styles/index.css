@@ -616,6 +616,63 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 /* Uses timeline styles above */
 
 /* ==========================================================================
+   RESUME
+   ========================================================================== */
+.resume .container {
+  text-align: center;
+}
+
+.resume__content {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume__icon-wrapper {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(139, 92, 246, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--color-border);
+}
+
+.resume__icon {
+  color: var(--color-accent);
+}
+
+.resume__heading {
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.resume__description {
+  font-size: 0.98rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.75rem;
+  max-width: 480px;
+}
+
+.resume__actions {
+  display: flex;
+  justify-content: center;
+}
+
+.resume .section__title {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 2rem;
+}
+
+/* ==========================================================================
    CONTACT
    ========================================================================== */
 .contact .container {
@@ -679,6 +736,12 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 }
 .contact__card:hover .contact__arrow {
   opacity: 1;
+}
+
+.contact .section__title {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 2rem;
 }
 
 /* ==========================================================================
