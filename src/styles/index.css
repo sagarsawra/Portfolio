@@ -618,7 +618,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 /* ==========================================================================
    RESUME
    ========================================================================== */
-/* .resume .container {
+.resume .container {
   text-align: center;
 }
 
@@ -670,7 +670,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   text-align: center;
   width: 100%;
   margin: 0 auto 2rem;
-} */
+}
 
 /* ==========================================================================
    CONTACT
